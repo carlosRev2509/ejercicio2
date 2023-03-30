@@ -6,7 +6,8 @@ package javaapplication2;
 
 /**
  *
- * @author brian
+ * @author Carlos Revollo Villarroel
+ * 
  */
 public class Division {
     int a;
