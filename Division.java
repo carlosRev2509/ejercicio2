@@ -6,13 +6,17 @@ package javaapplication2;
 
 /**
  *
- * @author brian
+ * @author Carlos Revollo Villarroel
+ * 
  */
 public class Division {
     int a;
     int b;
     double resultado;
     public Division(int a, int b){
+        this.a = a;
+        
+        
         resultado = (double)a / (double)b;
         System.out.println(resultado);
     }
