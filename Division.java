@@ -13,6 +13,9 @@ public class Division {
     int b;
     double resultado;
     public Division(int a, int b){
+        this.a = a;
+        
+        
         resultado = (double)a / (double)b;
         System.out.println(resultado);
     }
